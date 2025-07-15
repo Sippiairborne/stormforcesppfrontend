@@ -1,22 +1,20 @@
-body, html, #root {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  background-color: #0e1a2b;
-  font-family: sans-serif;
-  color: #00ffff;
-}
-.app-container {
-  text-align: center;
-  padding: 1rem;
-}
-.map-view {
-  height: 80vh;
-  width: 100%;
+.alerts-list {
   margin-top: 1rem;
-  border: 2px solid #00ffff;
+  background-color: #031c2f;
+  padding: 1rem;
   border-radius: 10px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
 }
-h1 {
-  margin: 0;
+.alerts-list ul {
+  list-style: none;
+  padding: 0;
+}
+.alerts-list li {
+  background-color: #003f5c;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border-radius: 5px;
 }
